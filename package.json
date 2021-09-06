@@ -1,7 +1,7 @@
 {
   "name": "homework1",
   "version": "0.1.0",
-  "homepage": "https://YuliyaMikhaleva.github.io/React-projects/",
+  "homepage": "https://YuliyaMikhaleva.github.io/react2/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -22,7 +22,8 @@
     "redux": "^4.1.1",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fix:prettier": "npx prettier --write .",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -62,5 +63,9 @@
     "prop-types": "^15.7.2",
     "react-redux": "^7.2.4",
     "react-window": "^1.8.6"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:/YuliyaMikhaleva/react2.git",
+  "author": "YuliyaMikhaleva <umihaleva93@mail.ru>",
+  "license": "MIT"
 }
