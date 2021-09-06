@@ -71,7 +71,7 @@ const App = () => {
     <Provider store={store}>
       <React.StrictMode>
         <PersistGate loading={null} persistor={persistore}>
-          <BrowserRouter>
+          <BrowserRouter basename='/calendar'>>
             <DefaultThemeProvider themes={themes} initialTheme={"мятная"}>
               {/*<button onClick={addConversation}>Добавить комнату</button>*/}
               {/*<button onClick={createMessage}>Добавить сообщение в комнату</button>*/}
